@@ -1,0 +1,14 @@
+.navigation {
+  color: #FFF;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  align-items: center;
+  align-content: center;
+  height: 100%;
+}
+
+
+.navigation a {
+  color: #FFF;
+}

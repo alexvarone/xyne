@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css?family==Alegreya+Sans:700+SC|Hind+Vadodara:300,400');
+
+/* Universal */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #FCFCFC;
+}
+
+/*Use for later....*/
+.yellow {
+  color: #f2d94b
+}
+
+
+.no-padding {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+
+/*Top Navigation */
+.nav-container {
+
+}
+
+.nav-reg {
+  background-color: #2a3259;
+  position: fixed;
+  z-index: 2;
+  display: block;
+  height: 50px;
+  width: 100%;
+  text-align: center;
+  opacity: 1;
+  transition: opacity;
+  transition-timing-function: ease-in;
+  transition-duration: 0.4s;
+}
+
+.nav-scroll {
+ background-color: #2a3259;
+  position: fixed;
+  z-index: 2;
+  display: block;
+  height: 50px;
+  width: 100%;
+  text-align: center;
+  opacity: 0;
+  transition: opacity;
+  transition-timing-function: ease-in;
+  transition-duration: 0.4s;
+
+}
+
+.nav {
+  height: 50px;
+  width: 100%;
+  text-align: center;
+}
+
+
+.logo-box {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  font-family: 'Alegreya Sans', sans-serif;
+  font-weight: 700;
+  color: #FFF;
+  margin: 0 auto;
+  font-size: 30px;
+  letter-spacing: 4px;
+  transition-timing-function: ease-in;
+  transition-duration: 0.4s;
+}
+
+.nav-box-3 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 0px;
+  padding-left: 0px;
+
+}
+
+.sign-up {
+  font-family: 'Hind Vadodara', sans-serif;
+  color: #FFF;
+  background-color: #e03e3c;
+  width: 120px;
+  height: 100%;
+  border: none;
+  font-size: 1.04em;
+
+}
+
+/*Main*/
+
+.grid {
+  margin-bottom: 400px;
+}
+
+.profile-box {
+  margin-top: 3%;
+  padding-top: 3%;
+  padding-bottom: 2%;
+}
+
+.profile-name {
+  color: #374358;
+  font-family: 'Hind Vadodara', sans-serif;
+  text-align: center;
+  font-size: 1.8em;
+  font-weight: 400;
+  padding-bottom: 0.7%;
+}
+
+.profile-info {
+  color: #556173;;
+  font-family: 'Hind Vadodara', sans-serif;
+  text-align: center;
+  font-size: 1.14em;
+  font-weight: 300;
+}
+
+.profile-details {
+  padding-top: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 165px;
+  margin: 0 auto;
+  font-size: 1.5em;
+}
+
+.item-container {
+  width:300px;
+  height:300px;
+  overflow:hidden;
+
+}
+
+.img-box {
+  min-width: 100%;
+  padding: 15px 0;
+}

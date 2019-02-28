@@ -1,0 +1,353 @@
+.logo-hero {
+  font-family: 'Alegreya Sans', sans-serif;
+  font-weight: 700;
+  color: #374358;
+  margin: 0 auto;
+  font-size: 2em;
+  letter-spacing: 4px;
+  padding-top: 15px;
+  padding-left: 38px;
+  text-align: left;
+}
+
+
+
+
+.grid-hero {
+  margin: 2% auto;
+}
+
+.hero-row {
+
+}
+
+.hero-copy {
+  color: #3F464C;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 2.5em;
+  font-weight: 700;
+  line-height: 1.3em;
+  text-align: left;
+  background: rgba(250, 250, 250, 0.80);
+  width: 500px;
+  margin-top: 4%;
+  margin-left: 38px;
+  padding: 3%;
+
+}
+
+.hero-copy p {
+  font-size: 0.6em;
+  font-weight: 400;
+  line-height: 1.3em;
+  width: 90%;
+  margin-bottom: 0rem;
+  margin-top: 1rem;
+}
+
+.btn-group {
+  display: flex;
+  margin-left: 38px;
+  margin-top: 5%;
+  }
+
+
+.btn-group button {
+  margin: 0 10px;
+  font-family: 'Alegreya Sans', sans-serif;
+  color: #47525E;
+  background-color: #E5E5E5;
+  padding: 5px 17px;
+  font-size: 1.4em;
+  letter-spacing: 0.5px;
+  border: none;
+  }
+
+
+#get-started {
+  background-color: #374358;
+  color: #DDE1E8;
+}
+
+
+
+.main-hero {
+
+  /* Working method */
+  background:
+    /* top, transparent red, faked with gradient */
+    linear-gradient(
+      rgba(255, 255, 255, 0.70),
+      rgba(255, 255, 255, 0.70)
+    ),
+    /* bottom, image */
+      url("https://i.imgur.com/bHMEUiB.jpg");
+      background-size: cover;
+}
+
+
+.main-hero img {
+ height: 500px
+}
+
+.side-hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /*align-content: space-between;*/
+}
+
+.side-hero-item {
+
+}
+
+
+.hover-content {
+  color: #FCFCFC;
+    opacity: 0;
+    transition: opacity 0.3s ease-out;
+    padding: 2%;
+    background: none;
+
+  font-family: 'Hind Vadodara', sans-serif;
+  text-align: left;
+  font-size: 1em;
+  font-weight: 400;
+}
+
+.bottom-hero:hover .hover-content {
+    opacity: 1;
+    transition: all 0.3s ease-out;
+    background:
+      rgba(50, 50, 50, 0.4);
+}
+
+.side-hero-item:hover .hover-content {
+    opacity: 1;
+    transition: all 0.3s ease-out;
+    background:
+      rgba(50, 50, 50, 0.4);
+}
+
+
+
+
+.bottom-hero1 {
+  background:
+      url("https://i.imgur.com/E3Hn9EU.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+}
+
+
+.bottom-hero2 {
+  background:
+    /* top, transparent red, faked with gradient */
+
+    /* bottom, image */
+      url("https://i.imgur.com/EQxOUoh.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+}
+
+.bottom-hero3 {
+  background:
+    /* top, transparent red, faked with gradient */
+
+    /* bottom, image */
+      url("https://i.imgur.com/Xfjx4sb.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+}
+
+.bottom-hero4 {
+  background:
+    /* top, transparent red, faked with gradient */
+
+    /* bottom, image */
+      url("https://i.imgur.com/fXdUeHb.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+}
+
+
+
+
+.side-hero-item {
+  width: 100%;
+  height: 250px
+}
+
+.side-hero1 {
+  background:
+      url("https://i.imgur.com/oQLUwzi.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+}
+
+.side-hero2 {
+  background:
+      url("https://i.imgur.com/R2uAiVx.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+}
+
+.bottom-hero{
+  width: 100%;
+  height: 250px;
+}
+
+
+
+
+
+
+
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+.sidenav a {
+  color: #fff;
+}
+
+#signup-link {
+  color: #fff;
+  text-decoration: underline;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+    overflow:hidden;
+    width:100%;
+}
+body {
+  overflow-x: hidden;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+
+
+form {
+  color: #fff;
+  margin-top: 10%;
+}
+
+
+label {
+    width: 80%;
+    margin: 0 10%;
+}
+
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    margin-bottom: 1rem;
+    height: 2.5em;
+    padding-left: 5px;
+    font-family: 'Alegreya Sans', sans-serif;
+
+}
+
+input[type="submit"] {
+  display: -webkit-box;
+  margin: 0 auto;
+  font-family: 'Alegreya Sans', sans-serif;
+  color: #47525E;
+  background-color: #FFF;
+  padding: 5px 17px;
+  font-size: 1.4em;
+  letter-spacing: 0.5px;
+  border: none;
+  margin-top: 10px;
+}
+
+.sign-up-box {
+  width: 100%;
+  margin-top: 10%;
+}
+
+.get-started {
+  font-family: 'Alegreya Sans', sans-serif;
+  width: 100%;
+  color: #fff;
+  border-bottom: 1px solid #6f6f6f;
+  padding-bottom: 10px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.get-started-sub {
+  font-family: 'Alegreya Sans', sans-serif;
+  width: 100%;
+  color: #fff;
+  padding-bottom: 5px;
+  text-align: center;
+  font-size: 1em;
+  padding-top: 10px;
+}
+
+
+
+
