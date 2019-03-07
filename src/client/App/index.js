@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { FaRegFile, FaRegEnvelopeOpen, FaInstagram } from 'react-icons/fa';
 import Nav from '../Nav';
 import Landing from '../Landing';
 import Profile from '../Profile';
@@ -33,6 +32,12 @@ class App extends Component {
         </div>*/}
       {/*<Profile />*/}
       <Landing/>
+
+      <Switch>
+          <Route path="/" exact component={Landing} />
+          <Route path="/secret" component={withAuth(Secret)} />
+          <Route path="/login" component={Login} />
+        </Switch>
       </div>
       );
   }
